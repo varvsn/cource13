@@ -1,0 +1,8 @@
+Записи в гостевой книге:
+{% for item in posts %}
+    id: {{ item.id }}
+    Автор: {{ item.author }}
+    Дата: {{ item.date_created }}
+    Текст: {{ item.mess_txt }}
+{% endfor %}
+Конец записей
